@@ -1,0 +1,344 @@
+@media screen and (max-width: 1400px) {
+  header{
+    height: 18vh;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  header {
+    height: 15vh;
+  }
+ 
+  
+}
+@media screen and (max-width: 991px) {
+
+  .title{
+  font-size: 40px;
+  line-height: 40px;
+  margin: 5px 12px;
+  padding: 8px 0px;
+  }
+  .heading-bg {
+    font-size: 25px;
+    line-height: 35px;
+    color: #101010;
+    margin: 15px 5px;
+    padding: 0px 0px;
+  }
+
+  .home-top h2 {
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0px 15px;
+    padding: 0px 25px;
+}
+.home-top p {
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0px 0px;
+  padding: 5px 40px;
+}
+.section .section-text .heading-sm {
+  font-size: 20px;
+  line-height: 25px;
+  margin: 3px 0px;
+  padding: 0px 10px;
+}
+
+.forthsection .section h5{
+  font-size: 80px;
+  line-height: 100px;
+}
+.forthsection .section h3{
+  font-size: 45px;
+  line-height: 70px;
+}
+.forthsection .section h1{
+  font-size: 30px;
+  line-height: 35px;
+}
+}
+@media only screen and (max-width: 800px) {
+  .nav-mobile {
+      display: block;
+ }
+  nav {
+      width: 100%;
+      padding: 60px 0 15px;
+      position: relative;
+ }
+  nav ul {
+      display: none;
+      position: absolute;
+      width: 100%;
+      background: #ffffff;
+      padding: 10px 0px;
+ }
+  nav ul li {
+      float: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+ }   
+  nav ul li a {
+      padding: 15px;
+      line-height: 20px;
+      background: #ffffff;
+      color: #101010;
+ }
+  nav ul li ul li a {
+      padding-left: 30px;
+ }
+
+}
+
+@media screen and (min-width:800px) {
+  .nav-list {
+      display: block !important; 
+ }
+}
+/*@media screen and (max-width: 991px) {
+header{
+  height: 310px !important; 
+ }
+
+.nav{
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 100%;
+margin-top: 25px;
+}
+.nav li{
+padding: 17px 5px;
+}
+.nav li a{
+text-align: center;
+}
+
+.logo{
+position: absolute;
+top: 6px;
+left: 4%;
+
+display: block;
+width: 25%;
+}
+.h-nav-resp{
+height: 60px !important;   
+}
+.v-class-resp{
+visibility: hidden;
+} 
+
+.burger{
+display: block;
+right: 5%;
+top: 12px;
+}
+.burger.active .line:nth-child(2){
+  opacity: 0;
+} 
+.burger.active .line:nth-child(1){
+  transform: translateY(10px) rotate(45deg);
+}  
+.burger.active .line:nth-child(3){
+  transform: translateY(-8px) rotate(-45deg);
+}  
+}   */
+
+@media screen and (max-width: 767px) {
+  .brand{
+    width: 280px;
+    top: 10px;
+  }
+  .title{
+    font-size: 34px;
+  }
+  .home-top h2 {
+    font-size: 30px;
+    line-height: 35px;
+    margin: 0px 10px;
+    padding: 0px 17px;
+  }
+  .home-top p{
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0px 0px;
+    padding: 5px 28px;
+  }
+  .button {
+     margin: 5px 10px; 
+    padding: 0px 15px;   
+}
+.butn{
+  width: 150px;
+  height: 50px;
+  font-size: 18px !important;
+}
+.forthsection .section h3{
+  font-size: 35px;
+  line-height: 50px;
+}
+.forthsection .section h5{
+  font-size: 60px;
+  line-height: 80px;
+}
+.aboutsection .about-heading {
+  font-size: 20px;
+  line-height: 20px;
+}
+.aboutsection .about-head{
+  font-size: 45px;
+  line-height: 60px;
+}
+.burger{
+  top: 15px;
+}
+}
+
+@media screen and (max-width: 576px){
+  .container, .container-fluid{
+    width: 95% !important; 
+  }
+  .brand {
+    width: 220px;
+    top: 15px
+  }
+  /*.logo{
+    top: 13px;
+    left: 3%;
+    max-width: 30%;
+  }
+  .burger{
+    top: 15px;
+  }   */
+  .title{
+  font-size: 25px !important;
+  line-height: 25px;
+  margin: 0px 0px;
+  padding: 5px 0px;
+  }
+  .heading-bg {
+  
+    font-size: 18px !important;
+    line-height: 25px !important;
+    color: #101010;
+    margin: 10px 5px;
+    padding: 0px 0px;
+  }
+  .section{
+    flex-direction: column;
+  }
+  .section-text{
+    margin-bottom: 20px;
+  }
+  .section .section-text .heading-sm {
+    font-size: 18px !important;
+    line-height: 20px;
+    margin: 3px 0px;
+    padding: 5px 0px;
+  }
+  .firsthalf{
+    margin-top: 20px;
+    padding: 40px 0px !important;
+  }
+  .home-top h2 {
+    font-size: 25px;
+    line-height: 40px;
+    margin: 10px 10px;
+    padding: 0px 17px;
+  }
+  .home-top p{
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0px 0px;
+    padding: 5px 25px;
+  }
+  .button {
+     margin: 10px 0px; 
+    padding: 0px 20px;   
+}
+.home-top .secondhalf img {
+  flex: 0 0 40%;
+  max-width: none; 
+}
+.aboutsection .about-heading {
+  font-size: 18px;
+  line-height: 20px;
+}
+.aboutsection .about-head{
+  font-size: 30px;
+  line-height: 45px;
+}
+/*Forth section*/
+.forthsection .section h5{
+  font-size: 45px;
+  line-height: 50px;
+}
+.forthsection .section h3{
+  font-size: 30px;
+  line-height: 35px;
+}
+.forthsection .section h1{
+  font-size: 25px;
+  line-height: 30px;
+}
+.dual-background {
+  overflow: hidden;
+/*  position: relative;*/
+  height: 750px;
+  background: linear-gradient(to right, #D6FCD680, #D6FCD680) left,
+      linear-gradient(to right, #7FD87F, #7FD87F) right;
+  background-size: 100% 100%, 0% 100%;
+}
+.dual-background .section-text{
+  padding: 0 2rem !important;
+}
+.dual-background .bg1{
+  display: none;
+}
+.dual-background .bg2{
+  display: none;
+}
+.dual-background .bg3{
+  display: none;
+}
+.dual-background .image {
+  position: relative;
+  left: 50%;
+  top:0%;
+  transform: translate(-100%);
+  /* position: relative; 
+  top: 50%;
+  left: 0%;
+  /* overflow: hidden; */
+  width: 50%;
+}
+.app1{
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contact-title {
+  font-size: 25px;
+  line-height: 35px;
+}
+form div{
+  height: 75px;
+}
+form{
+  flex-direction: column;
+}
+button{
+  width: 100%;
+}
+}
+
+@media screen and (max-width: 380px){
+  .app1 a img{
+    width: 40%;
+  }
+
+}
