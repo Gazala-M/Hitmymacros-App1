@@ -40,12 +40,6 @@ burger.addEventListener('click', ()=>{
     });
 
 
-    // Click outside the dropdown will remove the dropdown class
-    $('html').click(function() {
-      $('.navbar-dropdown').hide();
-    });
-  }); 
-})(jQuery); 
 
 
 const form = document.getElementById("form");
