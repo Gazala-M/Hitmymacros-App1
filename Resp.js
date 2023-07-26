@@ -46,19 +46,7 @@ burger.addEventListener('click', ()=>{
     });
   }); 
 })(jQuery); 
-/*window.addEventListener("scroll", () => {
-  if (window.scrollY > 0) {
-    navbar.classList.add("navbar-scrolled");
-  } else {
-    navbar.classList.remove("navbar-scrolled");
-  }
-});   */
 
-/*
-  window.addEventListener("scroll", function(){
-    var header = this.document.querySelector("header");
-    header.classList.toggle("sticky", window.scrollY > 0);
-  })  */
 
 const form = document.getElementById("form");
 const username = document.getElementById("username");
