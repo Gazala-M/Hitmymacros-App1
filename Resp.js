@@ -38,6 +38,13 @@ burger.addEventListener('click', ()=>{
       $('.navbar-dropdown').not($(this).siblings()).hide("slow");
       e.stopPropagation();
     });
+ // Click outside the dropdown will remove the dropdown class
+    $('html').click(function() {
+      $('.navbar-dropdown').hide();
+    });
+
+  }); 
+})(jQuery);   
 
 
 
