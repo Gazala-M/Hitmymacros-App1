@@ -59,6 +59,7 @@ button:disabled {
 }
 nav {
     float: right;
+    margin-top: 8px;
 }
 nav ul {
     list-style: none;
